@@ -1,0 +1,13 @@
+section {
+  color: whitesmoke;
+}
+section img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+section h1 {
+  text-align: center;
+}
+section p {
+  text-align: justify;
+}
