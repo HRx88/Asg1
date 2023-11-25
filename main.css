@@ -16,6 +16,8 @@ nav {
 .single-nav ul {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
   justify-content: space-between;
   color: #ffffff;
 }
@@ -26,9 +28,12 @@ nav {
 }
 .single-nav li a {
   color: #ffffff;
+  text-decoration: none;
+  font-family: fantasy;
 }
 .single-nav li a:hover {
   color: #1e1e1e;
+  transform: scale(0.8);
 }
 figure {
   flex-wrap: 0 1 calc(33%-1em);
@@ -37,5 +42,15 @@ figure {
   background-color: #d41212;
   border-radius: 1cm;
   border: 6px solid whitesmoke;
-  height: 59.2px;
+  height: 72.8px;
+}
+.social-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.social-menu img {
+  max-width: 100%;
+  width: 25px;
 }

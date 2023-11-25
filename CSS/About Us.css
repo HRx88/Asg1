@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 section {
   color: whitesmoke;
 }
@@ -10,4 +13,7 @@ section h1 {
 }
 section p {
   text-align: justify;
+}
+section img {
+  align-items: center;
 }

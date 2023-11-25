@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .info-location {
   color: whitesmoke;
   display: block;
