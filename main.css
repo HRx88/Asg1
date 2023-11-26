@@ -54,3 +54,13 @@ figure {
   max-width: 100%;
   width: 25px;
 }
+.social-menu li {
+  list-style: none;
+}
+.social-menu a {
+  text-decoration: none;
+}
+.social-menu ul {
+  display: flex;
+  flex-direction: row;
+}
