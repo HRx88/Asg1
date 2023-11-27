@@ -53,6 +53,8 @@ figure {
 .social-menu img {
   max-width: 100%;
   width: 25px;
+  max-height: 100%;
+  height: 25px;
 }
 .social-menu li {
   list-style: none;
