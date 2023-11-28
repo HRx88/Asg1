@@ -22,10 +22,11 @@
   align-items: center;
   margin: 10px;
   width: 200px;
-  height: 301.58px;
+  height: 310px;
 }
 .items h3 {
   color: whitesmoke;
+  margin: 0;
 }
 .items h4 {
   color: whitesmoke;
@@ -37,6 +38,7 @@
 }
 .items label {
   color: whitesmoke;
+  text-align: center;
 }
 .btn {
   display: flex;
