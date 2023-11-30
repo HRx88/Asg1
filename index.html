@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="main.css" rel="stylesheet" />
-    <link href="CSS\home.css" rel="stylesheet" />
-
-    <link href="reader.css" rel="stylesheet" />
+    <link href="/CSS/index.css" rel="stylesheet" />
+    <script src="JavaScript/index.js"></script>
     <title>Aftershock</title>
   </head>
   <body>
@@ -27,9 +26,53 @@
     </header>
     <main>
       <section class="container">
-        <h1>Thank you</h1>
-        <h2>For Ordering</h2>
-        
+        <form id="myFrm">
+          <input type="text" placeholder="Enter Name" id="txtName" required />
+          <input
+            type="number"
+            placeholder="Enter Mobile"
+            id="txtMobile"
+            maxlength="8"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Enter Email"
+            id="txtEmail"
+            required
+          />
+          <input type="submit" />
+          <h1>Customer invoice</h1>
+          <table id="Customer-table">
+            <thead>
+              <th>Name</th>
+              <th>Mobile</th>
+              <th>Email</th>
+            </thead>
+            <tbody id="Customer-table-body"></tbody>
+            <th>CPU</th>
+            <th>GPU</th>
+            <th>MotherBoard</th>
+            <th>Ram</th>
+            <th>Storage</th>
+            <th>Cooling System</th>
+            <th>Power Supply Unit</th>
+            <th>Total Price</th>
+            <tr>
+              <td><label id="CPU"></label></td>
+              <td><label id="GPU"></label></td>
+              <td><label id="MB"></label></td>
+              <td><label id="Ram"></label></td>
+              <td><label id="SSD"></label></td>
+              <td><label id="cooling"></label></td>
+              <td><label id="Psu"></label></td>
+              <td><label id="tP"></label></td>
+            </tr>
+          </table>
+        </form>
+        <script src="/JavaScript/index.js">
+          refreshCustomerTable();
+        </script>
       </section>
     </main>
     <footer>
@@ -39,22 +82,22 @@
         <ul>
           <li>
             <a href="https://www.facebook.com/AftershockPC/"
-              ><img src="image/Facebook icon.png"
+              ><img src="image/Facebook icon.png" alt="Facebook"
             /></a>
           </li>
           <li>
             <a href="https://www.youtube.com/c/AFTERSHOCKPCsg"
-              ><img src="image/YouTube icon.png"
+              ><img src="image/YouTube icon.png" alt="YouTube"
             /></a>
           </li>
           <li>
             <a href="https://www.instagram.com/aftershockpc/?hl=en"
-              ><img src="image/IG icon.png"
+              ><img src="image/IG icon.png" alt="Instagram"
             /></a>
           </li>
           <li>
             <a href="https://www.tiktok.com/@aftershockpc?lang=en"
-              ><img src="image/tiktok icon.png"
+              ><img src="image/tiktok icon.png" alt="TikTok"
             /></a>
           </li>
         </ul>

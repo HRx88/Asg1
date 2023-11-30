@@ -1,0 +1,48 @@
+.container {
+  text-align: center;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1e1e1e;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid whitesmoke;
+  padding: 10px;
+}
+
+th {
+  background-color: crimson;
+  color: white;
+}
