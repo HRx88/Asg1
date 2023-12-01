@@ -67,3 +67,5 @@ Same problem here if you select intel/amd ryzen cpu you should only see the disp
 10. Hosting and Maintenance
     Maintenance occurs every end of the month and hosting the website for a year.
     Update the website if needed.
+    Credits and references
+    (n.d.). Retrieved from AfterShock: https://www.aftershockpc.com/?tw_source=google&tw_adid=645380011586&tw_campaign=15305
